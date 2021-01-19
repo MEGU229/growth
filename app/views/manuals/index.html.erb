@@ -1,0 +1,12 @@
+<% unless user_signed_in? %>
+<%= image_tag 'lgi01a201311270800.jpg', class: 'image' %>
+<% end %>
+<main class="main">
+  <div class="inner">
+    <div class="card__wrapper">
+    <%= image_tag 'IMG_2973.jpeg', class: 'image2' %>
+      <%# 部分テンプレートで投稿一覧を表示 %>
+      <%= render partial: 'manual', collection: @manuals%>
+    </div>
+  </div>
+</main>

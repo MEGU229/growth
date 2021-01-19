@@ -1,0 +1,4 @@
+<div class="card__body">
+    <%= link_to manual.title, manual_path(manual.id), class: :card__title%>
+    <%= link_to "#{manual.user.name}", user_path(manual.user_id), class: :card__user %>
+  </div>
