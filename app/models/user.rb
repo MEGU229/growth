@@ -3,8 +3,10 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-         validates :name, presence: true
-         validates :position_id, presence: true
+         with_options presence: true do
+         validates :name, format: { with: /\A[ぁ-んァ-ヶ一-龥々]+\z/}
+         validates :position_id
+         end
 
          with_options numericality: { other_than: 1 } do
           validates :position_id
