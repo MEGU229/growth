@@ -129,7 +129,7 @@ a {
   height: 800px;
 }
 
-.imagee{
+.image2{
   width: 300px;
   height: 75px;
   background-image: image-url("IMG_2973.jpeg");
@@ -364,7 +364,7 @@ main{
   .card__title {
     font-size: 15px;
   }
-  .imagee{
+  .image2{
     width: 200px;
     height: 50px;
     background-image: image-url("IMG_2973.jpeg");
