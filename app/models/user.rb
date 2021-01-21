@@ -15,4 +15,7 @@ class User < ApplicationRecord
          has_many :manuals
          belongs_to :position
          has_many :comments
+         has_many :favorites
+         has_many :fav_manuals, through: :favorites, source: :manual
+       
 end

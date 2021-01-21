@@ -4,5 +4,8 @@ Rails.application.routes.draw do
   resources :users, only: :show
   resources :manuals do
     resources :comments, only: :create
+    resources :favorites, only: [:create, :destroy]
+
   end
+
 end

@@ -262,6 +262,11 @@ main{
   text-decoration: underline;
 }
 
+.star3{
+  width: 20px;
+  height: 20px;
+}
+
 /* ユーザーページ */
 .user__wrapper{
   min-height: calc(100vh - 161px);
@@ -288,11 +293,16 @@ main{
   padding: 16px 8px;
 }
 .user__card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: list-item;
+    list-style: none;
+  min-height: calc(100vh - 161px);
+  text-align: center;
 }
+
+.page-heading {
+  text-align: center;
+}
+
 /* フッター */
 
 .footer {

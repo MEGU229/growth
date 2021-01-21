@@ -32,6 +32,15 @@
           </p>
         </div>
       </div>
+
+    <% if !Favorite.exists?(user_id:current_user.id,manual_id:@manual.id) %>
+    <%= link_to "お気に入り",manual_favorites_path(@manual.id),method: :post %>
+    <%= image_tag "star.png", class:"star3" %>
+    <% else %>
+    <%= link_to "お気に入り解除",manual_favorite_path(@manual.id, 1),method: :delete %>
+    <%= image_tag "star1.png", class:"star3" %>
+    <% end %>
+
       <div class="prototype__comments">
         <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
         <% if user_signed_in? %>

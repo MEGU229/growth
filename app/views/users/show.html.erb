@@ -15,12 +15,19 @@
           </tr>
         </tbody>
       </table>
+    <% if @user.position_id <= 7 %>
       <h2 class="page-heading">
         <%= "投稿"%>
       </h2>
       <div class="user__card">
-        <%# 部分テンプレートでそのユーザーが投稿したプロトタイプ投稿一覧を表示する %>
         <%= render partial: 'manuals/manual', collection: @manuals%>
+      </div>
+    <% end %>
+    <h2 class="page-heading">
+        <%= "お気に入り一覧"%>
+      </h2>
+      <div class="user__card">
+        <%= render partial: 'manuals/manual', collection: @favorite_manuals%>
       </div>
     </div>
   </div>
