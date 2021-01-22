@@ -17,14 +17,14 @@
       </table>
     <% if @user.position_id <= 7 %>
       <h2 class="page-heading">
-        <%= "投稿"%>
+        <%= "＊ 投稿一覧 ＊"%>
       </h2>
       <div class="user__card">
         <%= render partial: 'manuals/manual', collection: @manuals%>
       </div>
     <% end %>
     <h2 class="page-heading">
-        <%= "お気に入り一覧"%>
+        <%= "＊ お気に入り一覧 ＊"%>
       </h2>
       <div class="user__card">
         <%= render partial: 'manuals/manual', collection: @favorite_manuals%>
