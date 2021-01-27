@@ -335,7 +335,7 @@ main{
 }
 
  /* スマホ表示 */
-@media (max-width: 599px) {
+@media (max-width: 930px) {
   .logo {
     width: 120px;
   }
@@ -387,4 +387,14 @@ main{
     width: 350px;
     word-wrap: break-word;
   }  
+  .comments_list{
+    text-align: center;
+    padding-bottom: 2px;
+    list-style: none;
+  }
+  .comment_user{
+    font-size: 12px;
+    color: #999;
+    text-decoration: underline;
+  }
 }
