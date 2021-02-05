@@ -10,13 +10,13 @@
  URL
  https://growth-32589.herokuapp.com/
 
- 権限のあるアカウント
+ 権限あり
  アドレス
  aaaaa@aaaaaaaaaa
  パスワード
  m11111
 
- 権限がないアカウント
+ 権限なし
  アドレス
  bbbbb@bbbbbbbbbb
  パスワード
