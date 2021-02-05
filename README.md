@@ -46,9 +46,9 @@
 
 
 
-# 🖋テーブル設計
+# テーブル設計
 
-## users テーブル
+## 😃 users テーブル
 
 |      Column      |  Type  |         Options         |
 | ---------------- | ------ | ----------------------- |
@@ -65,7 +65,7 @@
 - has_many :fav_manuals
 - belongs_to :position
 
-## manuals テーブル
+## 📖 manuals テーブル
 
 |      Column      |  Type  |     Options      |
 | ---------------- | ------ | ---------------- |
@@ -78,7 +78,7 @@
 - has_many :favorites
 - belongs_to :user
 
-## comments テーブル
+## 🖋 comments テーブル
 
 |      Column      |   Type   |       Options       |
 | ---------------- | -------- | ------------------- |
@@ -91,7 +91,7 @@
 - belongs_to :user
 - belongs_to :manual
 
-## favorites テーブル
+## ⭐️ favorites テーブル
 
 |   Column   |   Type   |     Options     |
 | ---------- | -------- | --------------- |
