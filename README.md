@@ -12,13 +12,13 @@
 
  権限のあるアカウント
  アドレス
- aaaaa@aaaaaaaaaaa
+ aaaaa@aaaaaaaaaa
  パスワード
  m11111
 
  権限がないアカウント
  アドレス
- bbbbb@bbbbbbbbbbb
+ bbbbb@bbbbbbbbbb
  パスワード
  m22222
 
@@ -35,7 +35,7 @@
 # 使用技術
  HTML・CSS・Ruby・Ruby on Rails・SQL・Git・ GitHub
 
-# 課題や今後実装したい機能
+# 今後実装したい機能
  今後実装したい機能はユーザー毎にマイページにマニュアルを表示
  チェックボックスを作り進捗がすぐにわかるようにしたい
 
