@@ -4,7 +4,7 @@
 # 📘 概要
  権限を持つユーザーのみマニュアルや共有したい事を投稿でき、投稿したものがTOPページに一覧表示される
  
- https://user-images.githubusercontent.com/74957333/107318083-49013800-6adf-11eb-9f08-244f51da9387.mp4
+ <img width="800" alt="投稿" src="https://gyazo.com/c8449972293fb88bec07741ac0f074be.jpeg">
  
  投稿者は投稿したものを編集・削除ができる
  
