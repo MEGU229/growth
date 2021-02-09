@@ -75,7 +75,7 @@
  
  ＊投稿権限あり＊
  
- <img width="800" alt="権限あり" src="https://gyazo.com/efc3ed707be363d94d0686a1fe84e6db.jpeg">
+ <img width="800" alt="権限あり" src="https://gyazo.com/5a5d27c5d8bb0e77996e06e9bfc0f9fe.jpeg">
  
  ＊投稿権限なし＊
  
