@@ -21,15 +21,19 @@
  投稿されたものにはログインをしていればコメントや、お気に入り登録ができる
  
  コメント
+ 
  <img width="800" alt="コメント" src="https://gyazo.com/616e6a38f5d7809e0f2c826cf6e3dea3.jpeg">
   
  お気に入り登録
+ 
  <img width="800" alt="お気に入り" src="https://gyazo.com/d1ccffdbe70b7af7e8c317cfafa2a6da.jpeg">
  
  権限を持つユーザーはマイページで自分が投稿したものが一覧表示される
+ 
  <img width="800" alt="投稿一覧" src="https://user-images.githubusercontent.com/74957333/107318463-2f142500-6ae0-11eb-9acf-47d037772ca7.png">
  
  お気に入り登録をする事でマイページで一覧表示される
+ 
  <img width="800" alt="お気に入り一覧" src="https://user-images.githubusercontent.com/74957333/107318482-3a675080-6ae0-11eb-90a2-9dc0b4e508cc.png">
 
 # 📘 本番環境
