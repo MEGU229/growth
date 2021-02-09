@@ -10,23 +10,27 @@
  
  編集
 
- https://user-images.githubusercontent.com/74957333/107318629-87e3bd80-6ae0-11eb-8c7f-834ab46165c6.mp4
+ <img width="800" alt="編集" src="https://gyazo.com/8431efc5168b5f4f6e1b600f6b14eb7c.jpeg">
 
 
  削除
 
- https://user-images.githubusercontent.com/74957333/107318637-8c0fdb00-6ae0-11eb-9a2c-4aa8aecc8854.mp4
+ <img width="800" alt="削除" src="https://gyazo.com/6e35e0e66b561df2b4f5f30db3cd4395.jpeg">
 
  
  投稿されたものにはログインをしていればコメントや、お気に入り登録ができる
  
- https://user-images.githubusercontent.com/74957333/107318180-82d23e80-6adf-11eb-857b-bd31821826a5.mp4
+ コメント
+ <img width="800" alt="コメント" src="https://gyazo.com/616e6a38f5d7809e0f2c826cf6e3dea3.jpeg">
+  
+ お気に入り登録
+ <img width="800" alt="お気に入り" src="https://gyazo.com/d1ccffdbe70b7af7e8c317cfafa2a6da.jpeg">
  
  権限を持つユーザーはマイページで自分が投稿したものが一覧表示される
- <img width="1131" alt="投稿一覧" src="https://user-images.githubusercontent.com/74957333/107318463-2f142500-6ae0-11eb-9acf-47d037772ca7.png">
+ <img width="800" alt="投稿一覧" src="https://user-images.githubusercontent.com/74957333/107318463-2f142500-6ae0-11eb-9acf-47d037772ca7.png">
  
  お気に入り登録をする事でマイページで一覧表示される
- <img width="1144" alt="お気に入り一覧" src="https://user-images.githubusercontent.com/74957333/107318482-3a675080-6ae0-11eb-90a2-9dc0b4e508cc.png">
+ <img width="800" alt="お気に入り一覧" src="https://user-images.githubusercontent.com/74957333/107318482-3a675080-6ae0-11eb-90a2-9dc0b4e508cc.png">
 
 # 📘 本番環境
  🌐URL
