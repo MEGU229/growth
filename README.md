@@ -2,37 +2,37 @@
 # GROWTH
 
 # 📘 概要
- 権限を持つユーザーのみマニュアルや共有したい事を投稿でき、投稿したものがTOPページに一覧表示される
+ 【権限を持つユーザーのみマニュアルや共有したい事を投稿でき、投稿したものがTOPページに一覧表示される】
  
  <img width="800" alt="投稿" src="https://gyazo.com/c8449972293fb88bec07741ac0f074be.jpeg">
  
- 投稿者は投稿したものを編集・削除ができる
+ 【投稿者は投稿したものを編集・削除ができる】
  
- 編集
+ ＊編集＊
 
  <img width="800" alt="編集" src="https://gyazo.com/8431efc5168b5f4f6e1b600f6b14eb7c.jpeg">
 
 
- 削除
+ ＊削除＊
 
  <img width="800" alt="削除" src="https://gyazo.com/6e35e0e66b561df2b4f5f30db3cd4395.jpeg">
 
  
- 投稿されたものにはログインをしていればコメントや、お気に入り登録ができる
+ 【投稿されたものにはログインをしていればコメントや、お気に入り登録ができる】
  
- コメント
+ ＊コメント＊
  
  <img width="800" alt="コメント" src="https://gyazo.com/616e6a38f5d7809e0f2c826cf6e3dea3.jpeg">
   
- お気に入り登録
+ ＊お気に入り登録
  
  <img width="800" alt="お気に入り" src="https://gyazo.com/d1ccffdbe70b7af7e8c317cfafa2a6da.jpeg">
  
- 権限を持つユーザーはマイページで自分が投稿したものが一覧表示される
+ 【権限を持つユーザーはマイページで自分が投稿したものが一覧表示される】
  
  <img width="800" alt="投稿一覧" src="https://user-images.githubusercontent.com/74957333/107318463-2f142500-6ae0-11eb-9acf-47d037772ca7.png">
  
- お気に入り登録をする事でマイページで一覧表示される
+ 【お気に入り登録をする事でマイページで一覧表示される】
  
  <img width="800" alt="お気に入り一覧" src="https://user-images.githubusercontent.com/74957333/107318482-3a675080-6ae0-11eb-90a2-9dc0b4e508cc.png">
 
@@ -65,7 +65,19 @@
 
  共有を投稿できる人を限定する為に登録時に権限をつけた
  
- 権限を持っているユーザーと、そうでないユーザーとで、ログイン時のボタンの種類を変えた
+ ※店長から販売リーダーまで権限あり
+ 
+ <img width="800" alt="権限" src="https://gyazo.com/f5617b3b62f8c3cb6a30e297bb1ae794.jpeg">
+ 
+ 投稿の権限を持っているユーザーと、そうでないユーザーとで、ログイン時のボタンの種類を変えた
+ 
+ 【投稿権限あり】
+ 
+ <img width="800" alt="権限あり" src="https://gyazo.com/efc3ed707be363d94d0686a1fe84e6db.jpeg">
+ 
+ 【投稿権限なし】
+ 
+ <img width="800" alt="権限なし" src="https://gyazo.com/a72e6d029ac9a634765911125d7a98d9.jpeg">
 
 # 📘 使用技術
  HTML・CSS・Ruby・Ruby on Rails・SQL・Git・ GitHub
