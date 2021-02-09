@@ -71,7 +71,7 @@
  
  ＊ログインしている時＊
  
- <img width="800" alt="TOPページ" src="https://gyazo.com/6e311c7e61efa6df8dc5f0158fe59726.jpeg">
+ <img width="800" alt="TOPページ" src="https://gyazo.com/86224141e7d39a01ae0ade84e1580fc0.jpeg">
 
  【共有を投稿できる人を限定する為に登録時に権限をつけた】
  
