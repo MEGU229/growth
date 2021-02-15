@@ -4,28 +4,28 @@
     <div class="manual__wrapper">
       <p class="manual__hedding">
       </p>
-      <%= link_to "投稿者  #{@manual.user.name}", user_path(@manual.user_id), class: :prototype__user %>
+      <%= link_to "投稿者  #{@manual.user.name}", user_path(@manual.user_id), class: :manual__user %>
       <%# プロトタイプの投稿者とログインしているユーザーが同じであれば以下を表示する %>
       <% if user_signed_in? && @manual.user_id == current_user.id %>
-        <div class="prototype__manage">
-          <%= link_to "編集する", edit_manual_path(@manual.id), class: :prototype__btn %>
-          <%= link_to "削除する", manual_path(@manual.id), method: :delete, class: :prototype__btn %>
+        <div class="manual__manage">
+          <%= link_to "編集する", edit_manual_path(@manual.id), class: :manual__btn %>
+          <%= link_to "削除する", manual_path(@manual.id), method: :delete, class: :manual__btn %>
         </div>
       <% end %>
       <%# // プロトタイプの投稿者とログインしているユーザーが同じであれば上記を表示する %>
       <% if @manual.image.present? %>
-        <div class="prototype__image">
+        <div class="manual__image">
         <%= image_tag @manual.image %>
       </div>
       <% end %>
-      <div class="prototype__body">
-        <div class="prototype__detail">
+      <div class="manual__body">
+        <div class="manual__detail">
           <p class="detail__title">タイトル</p>
           <p class="detail__message">
             <%= @manual.title %>
           </p>
         </div>
-        <div class="prototype__detail">
+        <div class="manual__detail">
           <p class="detail__title">詳細</p>
           <p class="detail__message">
             <%= @manual.text %>
@@ -41,7 +41,7 @@
     <%= image_tag "star1.png", class:"star3" %>
     <% end %>
   <% end %>
-      <div class="prototype__comments">
+      <div class="manual__comments">
         <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
         <% if user_signed_in? %>
           <%=form_with model: [@manual, @comment], local: true do |f|%>

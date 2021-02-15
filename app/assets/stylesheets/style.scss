@@ -179,27 +179,27 @@ main{
 }
 
 /* 詳細ページ */
-.prototype__wrapper{
+.manual__wrapper{
   min-height: calc(100vh - 161px);
 }
-.prototype__hedding{
+.manual__hedding{
   font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
-.prototype__user{
+.manual__user{
   display: block;
   font-size: 16px;
   color: #999;
   text-align: center;
   text-decoration: underline;
 }
-.prototype__image{
+.manual__image{
   width: 40%;
   margin: 0 auto;
   padding: 16px 0;
 }
-.prototype__detail{
+.manual__detail{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -209,12 +209,12 @@ main{
   font-size: 20px;
   font-weight: bold;
 }
-.prototype__manage{
+.manual__manage{
   display: flex;
   justify-content: center;
   padding-top: 16px;
 }
-.prototype__btn{
+.manual__btn{
   display: block;
   padding: 0.4em 1.6em;
   font-size: 0.4em;
@@ -226,12 +226,12 @@ main{
   transition: 0.4s ease;
   margin: 0 4px;
 }
-.prototype__btn:hover{
+.manual__btn:hover{
   color: #fff;
   background: #999;
 }
 
-.prototype__comments{
+.manual__comments{
   background-color: #e9effa;
   padding: 20px;
 }
@@ -328,7 +328,7 @@ main{
     width: 48%;
     margin-bottom: 40px;
   }
-  .prototype_image{
+  .manual_image{
     width: 60%;
   }
   
@@ -352,7 +352,7 @@ main{
   .card__summary {
     font-size: 14px;
   }
-  .prototype_image{
+  .manual_image{
     width: 100%;
   }
   .table{
