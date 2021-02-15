@@ -5,14 +5,14 @@
       <p class="manual__hedding">
       </p>
       <%= link_to "投稿者  #{@manual.user.name}", user_path(@manual.user_id), class: :manual__user %>
-      <%# プロトタイプの投稿者とログインしているユーザーが同じであれば以下を表示する %>
+      
       <% if user_signed_in? && @manual.user_id == current_user.id %>
         <div class="manual__manage">
           <%= link_to "編集する", edit_manual_path(@manual.id), class: :manual__btn %>
           <%= link_to "削除する", manual_path(@manual.id), method: :delete, class: :manual__btn %>
         </div>
       <% end %>
-      <%# // プロトタイプの投稿者とログインしているユーザーが同じであれば上記を表示する %>
+      
       <% if @manual.image.present? %>
         <div class="manual__image">
         <%= image_tag @manual.image %>
@@ -42,7 +42,7 @@
     <% end %>
   <% end %>
       <div class="manual__comments">
-        <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
+        
         <% if user_signed_in? %>
           <%=form_with model: [@manual, @comment], local: true do |f|%>
             <div class="field">
@@ -54,9 +54,9 @@
             </div>
           <% end %> 
         <% end %>
-        <%# // ログインしているユーザーには上記を表示する %>
+        
         <ul class="comments_lists">
-          <%# 投稿に紐づくコメントを一覧する処理を記述する %>
+          
         <% if @comments %>
           <% @comments.each do |comment| %>
             <li class="comments_list">
@@ -65,7 +65,7 @@
             </li>
           <% end %>
         <% end %>
-          <%# // 投稿に紐づくコメントを一覧する処理を記述する %>
+         
         </ul>
       </div>
     </div>
