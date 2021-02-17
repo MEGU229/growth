@@ -43,7 +43,7 @@ a {
 
 }
 .inner {
-  width: 1024px;
+  width: 95%;
   margin: 0 auto;
 }
 .nav {
@@ -98,10 +98,12 @@ a {
 
 .field{
   margin: 10px 0;
+  text-align: center;
 }
 
 .actions{
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .form__btn{
@@ -246,14 +248,15 @@ main{
 }
 
 .comments_list{
-  text-align: center;
   padding-bottom: 5px;
   list-style: none;
+  text-align: center;
 }
 
 .comment_text{
-  width: 900px;
   word-wrap: break-word;
+  text-align: center;
+
 }
 
 .comment_user{
@@ -384,7 +387,6 @@ main{
     height: 100px;
   }
   .comment_text{
-    width: 350px;
     word-wrap: break-word;
   }  
   .comments_list{
