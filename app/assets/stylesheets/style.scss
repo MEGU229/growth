@@ -15,8 +15,8 @@ div {
 
 h1 {
   font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  color: #c0d9f0;
-  text-shadow: 1px 2px 3px #4482a8;
+  color: #9db7e9;
+  text-shadow: 1px 2px 3px #315e7a;
 }
 
 body {
@@ -96,8 +96,15 @@ a {
   min-height: calc(100vh - 161px);
 }
 
-.form__text {
+.form__title,
+.form__text{
   width: 50%;
+  height: 40px;
+}
+
+.form__text{
+  width: 50%;
+  height: 200px;
 }
 
 .field{
@@ -107,7 +114,7 @@ a {
 
 .input-default,
 .select-box{
-  width: 300px;
+  width: 30%;
 }
 
 .actions{
@@ -284,20 +291,22 @@ main{
 }
 .table{
   border-collapse: collapse;
-  margin-bottom: 32px;
+  margin: 32px auto;
   width: 50%;
+  
 }
 .table__col1{
-  text-align: left;
+  text-align: center;
   font-weight: bold;
-  background: #fafafa;
+  background: #c7d8f3;
   border-collapse: collapse;
   border: 1px solid #f5f5f5;
   width: 30%;
   padding: 8px;
 }
 .table__col2{
-  text-align: left;
+  text-align: center;
+  background: #dfe9f8;
   border: 1px solid #f5f5f5;
   border-collapse: collapse;
   width: 70%;
@@ -406,5 +415,15 @@ main{
     font-size: 12px;
     color: #999;
     text-decoration: underline;
+  }
+
+  .input-default,
+  .select-box{
+    width: 50%;
+  }
+
+  .form__title,
+  .form__text{
+    width: 50%;
   }
 }

@@ -1,12 +1,12 @@
 <%= form_with model: manual, local: true do |f|%>
   <div class="field">
     <%= f.label :title, "タイトル" %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class: :form__title, placeholder:"タイトル（必須 40文字まで)" %>
   </div>
 
   <div class="field">
     <%= f.label :text, "詳細" %><br />
-    <%= f.text_area :text, class: :form__text %>
+    <%= f.text_area :text, class: :form__text , placeholder:"詳細（必須 1000文字まで)" %>
   </div>
 
   <div class="field">
