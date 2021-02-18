@@ -8,11 +8,15 @@ body,
 ul,
 li,
 h1,
-h2,
 p,
 div {
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  color: #90ccf1;
 }
 
 body {
@@ -256,7 +260,6 @@ main{
 .comment_text{
   word-wrap: break-word;
   text-align: center;
-
 }
 
 .comment_user{
