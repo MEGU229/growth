@@ -19,9 +19,11 @@ h1 {
   text-shadow: 1px 2px 3px #0c1820;
 }
 
+
 body {
   font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
   color: #3b4043;
+  background-color: #edf3fc;
 }
 
 li {
@@ -110,6 +112,9 @@ a {
 .field{
   margin: 30px 0;
   text-align: center;
+  font-weight: 900;
+  font-size: 140%;
+  color: rgb(67, 98, 161);
 }
 
 .input-default,
@@ -163,9 +168,10 @@ main{
   text-decoration: underline;
 }
 .page-heading {
-  font-size: 30px;
+  font-size: 50px;
   margin-bottom: 28px;
 }
+
 .card__wrapper {
   display: list-item;
     list-style: none;
